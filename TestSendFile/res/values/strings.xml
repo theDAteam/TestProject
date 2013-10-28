@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestSendFile</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_label">Sample Input</string>
+    <string name="uploading">Uploading</string>
+    <string name="send_button_lbl">Send File</string>
+    <string name="fetch_button_lbl">Fetch Files</string>
+    
+    <string name="fetch_prompt">Choose a file size</string>
+    <string-array name="fetch_options">
+        <item>1kb</item>
+        <item>10kb</item>
+        <item>100kb</item>
+        <item>250kb</item>
+        <item>1mb</item>
+        <item>2mb</item>
+        <item>3mb</item>
+        <item>4mb</item>
+        <item>5mb</item>
+        <item>6mb</item>
+        <item>7mb</item>
+        <item>8mb</item>
+        <item>9mb</item>
+        <item>10mb</item>
+        <item>20mb</item>
+        <item>30mb</item>
+        <item>40mb</item>
+        <item>50mb</item>
+        <item>60mb</item>
+        <item>70mb</item>
+        <item>80mb</item>
+        <item>90mb</item>
+        <item>100mb</item>
+    </string-array>
+    
+    <string name="dir_button_lbl">Print Directory</string>
+    <string name="delete_button_lbl">Clean Directory</string>
+
+</resources>

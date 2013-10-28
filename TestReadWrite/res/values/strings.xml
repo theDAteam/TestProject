@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestReadWrite</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_val">---</string>
+    <string name="filelocation_pfx">File Location:</string>
+    <string name="filename_pfx">File Name:</string>
+    <string name="filesize_pfx">File Size:</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDynamoDb</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_val">---</string>
+    <string name="row1_pfx">Row 1 data:</string>      
+    <string name="row2_pfx">Row 2 data:</string>     
+    <string name="row3_pfx">Row 3 data:</string>  
+    <string name="row4_pfx">Row 4 data:</string>  
+    <string name="row5_pfx">Row 5 data:</string>  
+    <string name="row6_pfx">Row 6 data:</string> 
+	<string name="button1_pfx">insert myTable</string>     
+	<string name="button2_pfx">reset variables</string>    
+	<string name="button_droptable_pfx">drop table</string>   
+	<string name="button_createtable">create table</string>   
+
+</resources>

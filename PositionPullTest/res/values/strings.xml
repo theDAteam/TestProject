@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Position Pull - TEST</string>
+    <string name="action_settings">Settings</string>
+    <string name="mylngtd_pfx">myLongitude:</string>
+    <string name="mylattd_pfx">myLatitude:</string>
+    <string name="towerid_pfx">Tower ID:</string>
+    <string name="towernetworkidlngtd_pfx">T Network ID:</string>
+    <string name="towerlngtd_pfx">Tower Longitude:</string>
+    <string name="towerlattd_pfx">Tower Latitude:</string>    
+    <string name="simoper_pfx">MCC+MNC:</string>
+    <string name="simopername_pfx">Operator:</string>
+    <string name="deviceid_pfx">Device ID:</string>
+    <string name="simserial_pfx">SIM:</string>
+    <string name="phonetype_pfx">Phone Type:</string>
+    <string name="phonenumber_pfx">Phone Number:</string>
+    <string name="softwareversion_pfx">Software Version:</string>
+    <string name="test_pfx">test data:</string>
+    <string name="signal_t_pfx">Network Type:</string>
+    <string name="signal_b_pfx">Signal (Bars):</string>
+    <string name="signal_a_pfx">Signal (ASU):</string>
+    <string name="signal_d_pfx">Signal (dBm):</string>
+    <string name="refresh_btn">Refresh</string>
+    <string name="default_val">---</string>
+
+</resources>

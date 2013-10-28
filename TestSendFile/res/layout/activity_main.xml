@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+    <TableLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <TableRow
+	        android:id="@+id/row01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+	        <EditText
+		        android:id="@+id/textInput"
+		        android:inputType="text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="3"
+		        android:hint="@string/text_label" />
+	        
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/row02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+	        <Button
+		        android:id="@+id/send_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:text="@string/send_button_lbl"
+		        android:onClick="sendFile" />
+	        
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/row03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <Button
+		        android:id="@+id/fetch_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:text="@string/fetch_button_lbl"
+		        android:onClick="getFiles" />
+	        
+	        <Spinner
+		        android:id="@+id/fetch_spinner"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:entries="@array/fetch_options"
+		        android:prompt="@string/fetch_prompt" />
+	        
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/row05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <Button
+		        android:id="@+id/dir_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:text="@string/dir_button_lbl"
+		        android:onClick="printDirectory" />
+	        
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/row06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+	        <Button
+		        android:id="@+id/del_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="1"
+		        android:text="@string/delete_button_lbl"
+		        android:onClick="clearDirectory" />
+	        
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/row07"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+	        <TextView 
+	            android:id="@+id/outText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_span="3"/>
+	        
+		</TableRow>
+	    
+	</TableLayout>
+</ScrollView>
