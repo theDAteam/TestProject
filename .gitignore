@@ -1,0 +1,6 @@
+# local metadata file for project
+.metadata
+
+# generated files
+# bin/
+gen/
