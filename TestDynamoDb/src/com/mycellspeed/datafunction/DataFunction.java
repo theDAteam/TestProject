@@ -41,8 +41,8 @@ import com.amazonaws.services.dynamodbv2.model.TableStatus;
 
 public class DataFunction {
 
-	public static final String ACCESS_KEY_ID = "AKIAJ3W2NBVOWKCXES7Q";
-	public static final String SECRET_KEY = "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";
+	public static final String ACCESS_KEY_ID = "AKIAJBT3LEN33YZIUR4A";
+	public static final String SECRET_KEY = "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";
     
     static AmazonDynamoDBClient client;
     static SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
